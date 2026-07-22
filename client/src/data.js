@@ -6,12 +6,10 @@ export const projects = [
         demoUrl: "https://applytrack.onrender.com",
         repoUrl: "https://github.com/DevCharlesA/ApplyTrack",
     },
-
 ];
-
 export const skills = {
     Languages: ["JavaScript (ES6+)", "Python", "HTML", "CSS", "SQL"],
-    Frontend: ["React", "Node.js", "PostgreSQL", "MongoDB", "Express", "Redux", "Tailwind CSS"],
-    Backend: ["Node.js", "PostgreSQL", "MongoDB", "Express", "Redux", "Tailwind CSS"],
+    Frontend: ["React", "Redux", "Tailwind CSS"],
+    Backend: ["Node.js", "Express", "PostgreSQL", "MongoDB"],
     Tools: ["Git", "GitHub", "Postman"],
 };
