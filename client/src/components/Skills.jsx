@@ -2,7 +2,7 @@ import { skills } from "../data";
 
 export default function Skills() {
   return (
-    <section id="skills" className="max-w-4xl mx-auto px-6 py-16">
+    <section id="skills" className="max-w-4xl mx-auto px-6 py-16 scroll-mt-24">
       <h2 className="text-2xl font-semibold mb-6">Skills</h2>
       <div className="grid sm:grid-cols-2 gap-6">
         {Object.entries(skills).map(([category, items]) => (

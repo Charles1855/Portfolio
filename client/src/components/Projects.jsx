@@ -21,7 +21,7 @@ function Projects() {
     ];
 
     return (
-        <section id="projects" className="py-20 px-6">
+        <section id="projects" className="py-20 px-6 scroll-mt-24">
             <div className="max-w-5xl mx-auto">
                 <h2 className="text-4xl font-bold text-center mb-10">
                     My Projects
@@ -31,7 +31,7 @@ function Projects() {
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="bg-white shadow-lg rounded-lg p-6"
+                            className="bg-white shadow-lg rounded-lg p-6 border border-transparent transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:border-slate-200"
                         >
                             <h3 className="text-xl font-semibold mb-3">
                                 {project.title}
