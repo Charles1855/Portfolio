@@ -11,22 +11,22 @@ export default function Nav() {
     }, []);
     return (
         <nav
-            className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${scrolled ? "bg-white/90 backdrop-blur border-b border-slate-200" : "bg transparent"
+            className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${scrolled ? "bg-platinum/90 backdrop-blur border-b border-ash" : "bg-transparent"
                 }`}
         >
             <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
                 <span
-                    className={`font-semibold transition-colors ${scrolled ? "text-slate-900" : "text-white"
+                    className={`font-display text-lg font-semibold transition-colors ${scrolled ? "text-onyx" : "text-white"
                         }`}
                 >
                     Charles Diego
                 </span>
-                <div className="flex gap-6 text-sm">
+                <div className="flex gap-6 text-base">
                     {links.map((l) => (
                         <a
                             key={l}
                             href={`#${l.toLowerCase()}`}
-                            className={`transition-colors hover:text-blue-500 ${scrolled ? "text-slate-700" : "text-white/90"
+                            className={`transition-colors hover:text-graphite ${scrolled ? "text-onyx/80" : "text-white/90"
                                 }`}
                         >
                             {l}
