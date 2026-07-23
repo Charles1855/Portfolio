@@ -10,3 +10,9 @@ body {
     margin: 0;
     font-family: 'Inter', system-ui, sans-serif;
 }
+
+/* Dial in Fraunces' variable axes for the soft, ball-terminal display look */
+.font-display {
+    font-optical-sizing: auto;
+    font-variation-settings: "SOFT" 60, "WONK" 1;
+}
