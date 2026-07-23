@@ -5,16 +5,22 @@ import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import topoBg from './assets/topo-bg.jpg'
 function App() {
   return (
     <>
       <Nav />
       <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div
+        className="bg-platinum/40 bg-scroll md:bg-fixed bg-cover bg-center"
+        style={{ backgroundImage: `url(${topoBg})` }}
+      >
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </>
   )
 }
