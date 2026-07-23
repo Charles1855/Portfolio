@@ -5,7 +5,7 @@ import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
-import topoBg from './assets/topo-bg.jpg'
+import topoBg from './assets/topo-bg.png'
 function App() {
   return (
     <>
