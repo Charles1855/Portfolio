@@ -8,9 +8,9 @@ const icons = {
 };
 export default function Skills() {
   return (
-    <section id="skills" className="bg-white px-6 py-20 scroll-mt-24">
+    <section id="skills" className="px-6 py-20 scroll-mt-24">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-display text-3xl sm:text-4xl font-bold text-center mb-10">
+        <h2 className="font-display text-4xl sm:text-5xl font-bold text-center mb-10 text-onyx">
           Skills
         </h2>
         <div className="grid sm:grid-cols-2 gap-5">
@@ -19,10 +19,10 @@ export default function Skills() {
             return (
               <div
                 key={category}
-                className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition shadow hover:shadow-md">
+                className="rounded-xl border border-ash bg-white/90 backdrop-blur-sm p-5 shadow sm transition-shadow hover:shadow-md">
                 <div className="flex items-center gap-2 mb-3">
-                  <Icon className="h-4 w-4 text-slate-400" strokeWidth={2} />
-                  <h3 className="text-sm font-medium text-slate-500 uppercase tracking-wide">
+                  <Icon className="h-4 w-4 text-graphite" strokeWidth={2} />
+                  <h3 className="text-base font-medium text-graphite uppercase tracking-wide">
                     {category}
                   </h3>
                 </div>
@@ -30,7 +30,7 @@ export default function Skills() {
                   {items.map((s) => (
                     <span
                       key={s}
-                      className="text-xs px-2.5 py-1 bg-slate-50 border border-slate-200 roundedfull text-slate-700">
+                      className="text-sm px-2.5 py-1 bg-platinum/60 border border-ash rounded full text-onyx">
                       {s}
                     </span>
                   ))}
