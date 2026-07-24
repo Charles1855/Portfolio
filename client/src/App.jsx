@@ -1,8 +1,7 @@
 import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
-import Skills from './components/Skills.jsx'
-import Projects from './components/Projects.jsx'
+import SkillsProjects from './components/SkillsProjects.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import topoBg from './assets/topo-bg.png'
@@ -16,8 +15,7 @@ function App() {
         style={{ backgroundImage: `url(${topoBg})` }}
       >
         <About />
-        <Skills />
-        <Projects />
+        <SkillsProjects />
         <Contact />
         <Footer />
       </div>
