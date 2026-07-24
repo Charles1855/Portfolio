@@ -16,3 +16,11 @@ body {
     font-optical-sizing: auto;
     font-variation-settings: "SOFT" 60, "WONK" 1;
 }
+
+/* Subtle graph-paper grid for the dark Skills/Projects data panel */
+.data-grid {
+    background-image:
+        linear-gradient(rgba(224, 224, 224, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(224, 224, 224, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
