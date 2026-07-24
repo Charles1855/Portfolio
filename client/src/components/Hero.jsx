@@ -22,7 +22,7 @@ export default function Hero() {
                 <div className="mt-8 flex flex-wrap gap-4">
                     <a
                         href="#projects"
-                        className="px-5 py-2.5 bg-platinum text-onyx rounded-md text-sm fontmedium hover:bg-white transition-colors">
+                        className="px-5 py-2.5 bg-platinum text-onyx rounded-md text-sm font-medium hover:bg-white transition-colors">
                         View projects
                     </a>
                     <a
